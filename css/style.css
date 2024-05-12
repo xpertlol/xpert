@@ -1,47 +1,59 @@
 /* From the :root element you can easily change the colors of the design, its size and so on. */
 :root {
+
   /* You can change the font family in the whole design here. (You need to add the font family to the codes.) */
   --font_family: 'Inter', sans-serif;
+
   /* You can change the font size here, is proportional to all texts. */
   --font_size: 16px;
+
   /* You can change the background color by typing the color code. (If you do not enter a background-image image, the background-color will be active.) */
   --background_color: #000;
   --background_image: url("../img/wallpaper.jpg");
+
   /* You can change the frame thickness and color of the picture by typing the number of pixels and the color code. */
   --image_border_color: #000;
   --image_border_px: 3px;
+
   /* You can change the width and size of the picture by typing the number of pixels. */
   --image_width: 140px;
   --image_height: 140px;
+
   /* You can change the colors of the title and description section by typing the color codes. */
   --title_color: #fff;
   --description_color: #f1c40f;
+
   /* You can change the colors of social media icons by changing the color code. */
   --svg_color: #fff;
+
   /* You can change the background, text color and active color of the menu by changing the color codes. */
   --menu_background_color: #0e0e0e;
   --menu_text_color: #fff;
   --menu_active_text_color: #f1c40f;
+
   /* You can change the button's background, text color and active color by changing the color codes. */
   --button_background_color: #0e0e0e;
   --button_text_color: #fff;
   --button_text_hover_color: #f1c40f;
+
   /* You can change the background, text color and active color of the text field by changing the color codes. */
   --textarea_background_color: #0e0e0e;
   --textarea_text_color: #fff;
   --textarea_link_text_color: #f1c40f;
+
   /* You can change the background, text color and active color of the footer area by changing the color codes. */
   --footer_background_color: #0e0e0e;
   --footer_text_color: #fff;
   --footer_link_text_color: #f1c40f;
-  /* Define the custom cursor image URL variable */
-  --cursor_image: url('/img/cursor.png');
 }
 
 /* Basic Codes */
 
+.custom-cursor {
+  cursor: url("cursor.png");
+}
+
 body {
-  cursor: var(--cursor_image), auto;
   font: var(--font_size) var(--font_family);
   font-weight: 400;
   line-height: 1.5;
@@ -135,6 +147,7 @@ body {
 #header_nav_menu_item_3 {
   color: var(--menu_text_color);
 }
+
 
 .header_nav_menu_list {
   padding-top: 1em;
@@ -251,15 +264,16 @@ main {
   }
 
   .main_small_button_item {
-    width: calc(92vw / 2 - 5px);
+    width: calc(92vw / 2 - 5px);;
   }
 
   .main_button_item {
     width: 92vw;
   }
-
+  
   .header_h_item {
     width: 92vw;
     text-align: center;
   }
+  
 }
