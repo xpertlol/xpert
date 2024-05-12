@@ -50,7 +50,7 @@
 /* Basic Codes */
 
 .custom-cursor {
-  cursor: url("cursor.png");
+  cursor: pointer("cursor.png");
 }
 
 body {
