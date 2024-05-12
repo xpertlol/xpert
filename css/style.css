@@ -49,10 +49,6 @@
 
 /* Basic Codes */
 
-.custom-cursor {
-  cursor: pointer("cursor.png");
-}
-
 body {
   font: var(--font_size) var(--font_family);
   font-weight: 400;
