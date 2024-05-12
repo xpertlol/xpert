@@ -35,7 +35,7 @@
   --footer_text_color: #fff;
   --footer_link_text_color: #f1c40f;
   /* Define the custom cursor image URL variable */
-  --cursor_image: url('xpertlol/xpert/img/cursor.png');
+  --cursor_image: url('/img/cursor.png');
 }
 
 /* Basic Codes */
