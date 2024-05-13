@@ -13,3 +13,7 @@ targets.forEach(element => {
     target.style.display= 'flex'
   })
 })
+
+setInterval(() => {
+  console.log('log');
+}, 1000);
