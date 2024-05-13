@@ -224,7 +224,9 @@ open source made by xpert
 
       <button type="submit" class="invisible-button" id="made-by-button">open</button>
       <script>
-        document.getElementById('made-by-button').innerHTML = 'Made by Quirino Baca';
+        document.getElementById('made-by-button').addEventListener('click', function() {
+          alert('Made by Quirino Baca');
+        });
       </script>
       
       <div class="footer_div_item flex_row_center">
