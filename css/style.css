@@ -242,6 +242,17 @@ main {
   cursor: pointer;
 }
 
+.volume-button {
+  width: 1em;
+  height: 1em;
+  cursor: pointer;
+}
+
+/* Add styles for hover or active states if needed */
+.volume-button:hover {
+  opacity: 0.8;
+}
+
 /* Footer Codes */
 
 .footer_div_item {

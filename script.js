@@ -1,14 +1,8 @@
-// Get the audio element
-const musicPlayer = document.getElementById('musicPlayer');
+const audio = document.getElementById('myAudio');
+const volumeButton = document.querySelector('.volume-button');
 
-// Play the audio
-function playMusic() {
-    musicPlayer.play();
-}
+let isMuted = false;
 
-// Pause the audio
-function pauseMusic() {
-    musicPlayer.pause();
-}
-
-// You can also add more functionalities like volume control, etc.
+volumeButton.addEventListener('click', () => {
+    isMuted = !isMuted;
+    audio.muted =
