@@ -256,6 +256,12 @@ main {
   text-decoration: none;
 }
 
+/* styles.css */
+
+.roblox-icon path {
+  fill: #000000; /* Black color */
+}
+
 /* Responsive Codes */
 
 @media (max-width: 768px) { 
