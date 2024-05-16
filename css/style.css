@@ -118,6 +118,10 @@ body {
   padding-top: 1em;
 }
 
+.roblox-icon svg {
+  fill: #000; /* Black fill color for the SVG icon */
+}
+
 .header_svg_item {
   width: 2.1em;
   height: 2.1em;
