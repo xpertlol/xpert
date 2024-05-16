@@ -108,6 +108,10 @@ body {
   font-size: 1.5em;
 }
 
+.invisible-button {
+  opacity: 0;
+}
+
 /* Social Media Icons Codes */
 
 .header_svg_list {
