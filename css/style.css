@@ -206,7 +206,7 @@ main {
   background-color: var(--button_background_color);
   width: 41em;
   border-radius: 1em;
-  min-height: 3.7em;
+  min-height: 41em;
   text-align: center;
   cursor: pointer;
 }
