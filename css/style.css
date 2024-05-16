@@ -51,7 +51,7 @@
 
 body {
   font: var(--font_size) var(--font_family);
-  font-weight: 400;
+  font-weight: 300 800;
   line-height: 1.5;
   background: var(--background_color) var(--background_image) no-repeat center;
   min-height: 100vh;
