@@ -237,7 +237,7 @@
     background-color: var(--button_background_color);
     width: calc(41em / 2 - 5px);
     border-radius: 1em;
-    min-height: 7.4em;
+    min-height: 6em;
     text-align: center;
     cursor: pointer;
   }
