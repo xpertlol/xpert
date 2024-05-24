@@ -236,8 +236,8 @@
     color: var(--button_text_color);
     background-color: var(--button_background_color);
     width: calc(41em / 2 - 5px);
-    border-radius: 3em;
-    min-height: 4.2em;
+    border-radius: 1em;
+    min-height: 7.4em;
     text-align: center;
     cursor: pointer;
   }
