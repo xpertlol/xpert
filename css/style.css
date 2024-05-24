@@ -204,9 +204,9 @@
   .main_button_item {
     color: var(--button_text_color);
     background-color: var(--button_background_color);
-    width: 41em;
+    width: 50em;
     border-radius: 1em;
-    min-height: 3.7em;
+    min-height: 5em;
     text-align: center;
     cursor: pointer;
   }
